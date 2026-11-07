@@ -77,7 +77,7 @@ BioLab.COURSES = [
   ]
  }
 ];
-BioLab.TOPIC_ORDER = {"0": ["bodymap", "homeostasis"], "1": ["skin"], "2": ["skeleton", "muscles", "movements", "contraction"], "3": ["heart", "breathing", "transport"], "4": ["nsmap", "neuron", "reaction"], "11": ["dissection"]};
+BioLab.TOPIC_ORDER = {"0": ["bodymap", "homeostasis", "egfr"], "1": ["skin"], "2": ["skeleton", "muscles", "movements", "contraction"], "3": ["heart", "breathing", "transport", "spirometry"], "4": ["nsmap", "neuron", "reaction"], "11": ["dissection"]};
 BioLab.setSections({units:{},extra:{"0": "Body basics", "1": "Integumentary system", "2": "Skeletal and muscular systems", "3": "Cardiovascular and respiratory systems", "4": "Nervous system", "11": "Go further"},order:[0, 1, 2, 3, 4, 11],further:11,unitPrefix:''});
-(function(){const P={"bodymap": 0, "homeostasis": 0, "skin": 1, "skeleton": 2, "muscles": 2, "movements": 2, "contraction": 2, "heart": 3, "breathing": 3, "transport": 3, "nsmap": 4, "neuron": 4, "reaction": 4, "dissection": 11};BioLab.defs.forEach(d=>{if(P[d.id]!==undefined)d.apUnit=P[d.id];});
+(function(){const P={"bodymap": 0, "homeostasis": 0, "skin": 1, "skeleton": 2, "muscles": 2, "movements": 2, "contraction": 2, "heart": 3, "breathing": 3, "transport": 3, "nsmap": 4, "neuron": 4, "reaction": 4, "dissection": 11, "egfr": 0, "spirometry": 3};BioLab.defs.forEach(d=>{if(P[d.id]!==undefined)d.apUnit=P[d.id];});
 const keep=new Set(BioLab.defs.map(d=>d.id));BioLab.defs.forEach(d=>{['prereq','next'].forEach(k=>{if(d[k])d[k]=d[k].filter(i=>keep.has(i));});});})();
