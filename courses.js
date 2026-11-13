@@ -1,7 +1,7 @@
 /* Raider AnatomyLab: course order comes from the course's Canvas modules. */
 BioLab.COURSES = [
  {
-  "id": "anatomy",
+  "id": "anatomy",finals:[{"t": "Anatomy & Physiology fall final review", "units": [0, 1, 2, 3, 4], "note": "Covers Units 1 to 5, through the muscular system. Your teacher decides what is on the final, so check the study guide."}],
   "name": "Anatomy &amp; Physiology",
   "blurb": "Tools in the order Anatomy &amp; Physiology covers them, one body system at a time.",
   "further": [
