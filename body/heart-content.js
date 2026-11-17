@@ -44,7 +44,7 @@ heart:{
     lab:{set:{view:'output'},act:'jog',look:'Read <b>Cardiac output</b>, and watch how fast the jug fills.'},verify:[['co',15,.05]]},
   {id:'wall',kind:'test',lvl:'bio',
     q:'Why is the wall of the left ventricle much thicker than the wall of the right ventricle?',
-    choices:['It holds much more blood','It pushes blood through the whole body, while the right ventricle only pushes blood to the lungs','It has to pump oxygen-rich blood, which is heavier','It contains the septum'],correct:1,
+    choices:['It holds much more blood than the right','It pushes blood to the whole body, not just the lungs','Oxygen-rich blood is heavier, so it needs more push','It contains the septum along with its own wall'],correct:1,
     steps:['Both ventricles pump the same amount of blood per beat in a healthy heart.','The left ventricle pushes against about 115 mmHg. The right pushes against only about 25 mmHg.','More pressure takes more muscle. Structure matches function.'],
     lab:{set:{view:'path',auto:false},look:'Compare the muscle around the two ventricles in the cutaway.'}},
   {id:'components',kind:'test',lvl:'bio',
@@ -59,7 +59,7 @@ heart:{
     lab:{set:{view:'output',hr:56,sv:90},look:'Read <b>Cardiac output</b>. It matches the resting value.'},verify:[['co',5.04,.03]]},
   {id:'leak',kind:'test',lvl:'honors',
     q:'A person’s bicuspid valve leaks. Which symptom makes the most sense?',
-    choices:['Shortness of breath, because blood backs up toward the lungs','Blue blood in the aorta','More blood than usual reaches the body','A septal defect'],correct:0,
+    choices:['Shortness of breath, as blood backs up to the lungs','Blue, oxygen-poor blood showing up in the aorta','More blood than usual reaching the rest of the body','A hole in the septum between the two ventricles'],correct:0,
     steps:['When the left ventricle squeezes, some blood goes back into the left atrium rather than out the aorta.','The left atrium receives blood from the pulmonary veins, so pressure backs up into the lungs.','Fluid in the lungs causes shortness of breath, and the body gets less forward flow.'],
     lab:{set:{view:'breaks',brk:'mitral',leak:40},look:'Compare <b>Cardiac output</b> with <b>Blood reaching the body</b>.'}},
   {id:'ef',kind:'test',lvl:'ap',
@@ -68,7 +68,7 @@ heart:{
     steps:['Stroke volume = 150 − 60 = 90 mL.','Ejection fraction = stroke volume ÷ volume before the squeeze.','90 ÷ 150 = 0.60, or 60%, which is in the normal range of about 55 to 70%.']},
   {id:'vsd',kind:'real',lvl:'ap',
     q:'In a septal defect, why does blood cross from the left ventricle to the right, and not the other way?',
-    choices:['The left ventricle squeezes first','Left ventricle pressure is far higher than right ventricle pressure during the squeeze','The septum has a one-way valve','Oxygen-rich blood is pulled toward oxygen-poor blood'],correct:1,
+    choices:['The left ventricle squeezes first, before the right','Left ventricle pressure is far higher than the right’s','The septum has a one-way valve that only opens left to right','Oxygen-rich blood is pulled toward oxygen-poor blood'],correct:1,
     steps:['Fluids flow from high pressure to low pressure.','During systole, the left ventricle reaches about 115 mmHg and the right only about 25 mmHg.','So oxygen-rich blood crosses to the right and takes an extra trip through the lungs. Lung flow rises while body flow falls.'],
     lab:{set:{view:'breaks',brk:'vsd',leak:40},look:'Compare <b>Blood through the lungs</b> with <b>Blood reaching the body</b>.'}}
   ]}

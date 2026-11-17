@@ -29,7 +29,7 @@ muscles:{questions:[
     lab:{set:{act:'decoder',root:'rectus'},look:'Rectus means straight. Both muscles with this root are highlighted on the figure.'}},
   {id:'types',kind:'test',lvl:'bio',
     q:'A tissue sample has striated, branched cells joined by dark discs. It works without conscious control. Which muscle type is it?',
-    choices:['Skeletal','Cardiac','Smooth','It could be either skeletal or smooth'],correct:1,
+    choices:['Skeletal','Cardiac','Smooth','Skeletal or smooth'],correct:1,
     steps:['Striations rule out smooth muscle, which has no stripes.','Skeletal muscle is striated too, but its fibers are long and unbranched, and it is voluntary.','Branched cells joined by intercalated discs are cardiac muscle.'],
     lab:{set:{act:'types',mtype:'cardiac'},look:'Compare the three samples. Look for stripes, branching and where the nuclei sit.'}},
   {id:'calfraise',kind:'real',lvl:'honors',
@@ -49,7 +49,7 @@ muscles:{questions:[
     lab:{set:{act:'explore',muscle:'infra',view:'back',zoom:'upper'},look:'Compare Infraspinatus with Teres Major, just below it. Check the insertion of each.'}},
   {id:'footdrop',kind:'real',lvl:'ap',
     q:'After a hard hit to the outer knee, a player’s toes drag when walking because the foot cannot lift. Which muscle is failing, and what nerve supplies it?',
-    choices:['Gastrocnemius, tibial nerve','Tibialis Anterior, deep fibular nerve','Soleus, sciatic nerve','Vastus Lateralis, femoral nerve'],correct:1,
+    choices:['Gastrocnemius, tibial nerve','Tibialis anterior, deep fibular nerve','Soleus, sciatic nerve branch','Vastus lateralis, femoral nerve'],correct:1,
     steps:['Lifting the foot is dorsiflexion, which is the action of Tibialis Anterior.','Its nerve, the deep fibular nerve, branches from the common fibular nerve, which wraps close to the skin around the outer knee.','Gastrocnemius and Soleus do the opposite action. This needs medical evaluation. It is not something to self-diagnose.'],
     lab:{set:{act:'explore',muscle:'tibant',view:'front',zoom:'lower'},look:'Read the action and nerve for Tibialis Anterior. Then compare with Gastrocnemius.'}}
 ]}});
