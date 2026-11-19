@@ -13,6 +13,10 @@ neuron: {
   ],
   stops: 'Neuroscience can map which neurons fire when you see red, feel pain or decide to move. Why those spikes come with an inner experience (what it is like to be you) is not answered by the voltage trace. Philosophers call this “the hard problem.”',
   church: 'The Church teaches that a human person is one being, body and soul together. The soul is the “form” of the body, so we are not a ghost living in a machine, and the body shares in the dignity of being made in God’s image (Catechism nos. 362–365). So the Church welcomes brain science: studying neurons is studying a living person. It also holds that understanding and free choice are more than chemistry.',
+  faith: { items: [
+    { who: 'Bl. Nicolas Steno', when: 'anatomist, later a Catholic bishop; Paris lecture, 1665', says: 'He showed that Descartes was wrong about the pineal gland and argued it was idle to guess how the brain works while so little of its structure was known. Look carefully first, then explain.' },
+    { who: 'St. Edith Stein', when: 'philosopher, Carmelite nun, 1891–1942', says: 'Her 1917 study of empathy is one of the views below. She later became a Carmelite nun, was killed at Auschwitz in 1942, and was canonized in 1998.' }
+  ] },
   views: [
     { who: 'René Descartes', when: '1641', says: 'Mind and body are two different kinds of thing. The body is a machine; the thinking self is not made of matter at all.' },
     { who: 'Aristotle and Thomas Aquinas', when: '4th century BC; 13th century', says: 'The soul is not a separate thing inside the body; it is what makes the body a living human. Body and soul make one person.' },
